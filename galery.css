@@ -3,6 +3,9 @@
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: auto;
 }
-.galery_1x2 {
+.galery__picture_1x2 {
     grid-row: span 2;
+}
+.galery__picture {
+    
 }
