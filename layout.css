@@ -1,3 +1,6 @@
+:root {
+    --background: #fff;
+}
 .galery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -13,4 +16,22 @@
     padding: 0;
     height: 100%;
     object-fit: cover;
+}
+.header {
+    background-image: url(media/background-CTAblock-4460w.jpg);
+}
+.header__navbar {
+    background-color: white;
+    display: flex;
+    height: fit-content;
+    overflow: hidden;
+    grid-gap: 0,5rem;
+    list-style-type: none;
+    justify-content: end;
+    margin: 3em;
+}
+.header__navbar__btn {
+    color: black;
+    margin: 1em;
+    padding: 3em;
 }
