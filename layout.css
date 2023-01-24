@@ -1,5 +1,7 @@
 :root {
-    --background: #fff;
+    --background-color: white;
+    --color: black;
+    --color-reverse: white;
 }
 .galery {
     display: grid;
@@ -19,19 +21,19 @@
 }
 .header {
     background-image: url(media/background-CTAblock-4460w.jpg);
+    color: var(--color-reverse);
 }
 .header__navbar {
-    background-color: white;
+    background-color: var(--background-color);
     display: flex;
-    height: fit-content;
-    overflow: hidden;
     grid-gap: 0,5rem;
     list-style-type: none;
     justify-content: end;
     margin: 3em;
+    padding: 1em;
 }
 .header__navbar__btn {
-    color: black;
+    color: var(--color);
     margin: 1em;
     padding: 3em;
 }
