@@ -2,6 +2,11 @@
     --background-color: white;
     --color: black;
     --color-reverse: white;
+    --btn-background: orange;
+    --btn-color: orange;
+}
+a {
+    text-decoration: none;
 }
 .galery {
     display: grid;
@@ -20,20 +25,47 @@
     object-fit: cover;
 }
 .header {
-    background-image: url(media/background-CTAblock-4460w.jpg);
+    background-image: url(media/pageheader-1920w.jpg);
     color: var(--color-reverse);
+    display: flex;
+    flex-direction: column;
 }
 .header__navbar {
     background-color: var(--background-color);
     display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    margin: 2em;
+    padding: 0.5em;
+}
+.header__navbar__nav {
+    display: flex;
     grid-gap: 0,5rem;
     list-style-type: none;
     justify-content: end;
-    margin: 3em;
-    padding: 1em;
+    align-content: center;
 }
-.header__navbar__btn {
+.header__navbar__nav__btn {
     color: var(--color);
     margin: 1em;
     padding: 3em;
+}
+.header__text {
+    justify-self: end;
+align-self: center;
+}
+.header_text h1 {
+    align-self: center;
+    padding: 2em;
+}
+.header_text h2 {
+    align-self: center;
+    padding: 2em;
+}
+.header__text__btn--full {
+    align-self: center;
+    color: var(--color-reverse);
+    background-color: var(--btn-background);
+    margin: 2em;
+    padding: 0.5em;
 }
