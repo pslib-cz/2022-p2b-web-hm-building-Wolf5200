@@ -27,8 +27,7 @@ a {
 .header {
     background-image: url(media/pageheader-1920w.jpg);
     color: var(--color-reverse);
-    display: flex;
-    flex-direction: column;
+    padding: 3em;
 }
 .header__navbar {
     background-color: var(--background-color);
@@ -51,21 +50,42 @@ a {
     padding: 3em;
 }
 .header__text {
-    justify-self: end;
-align-self: center;
+    object-position: center;
 }
 .header_text h1 {
-    align-self: center;
+    object-position: center;
     padding: 2em;
 }
 .header_text h2 {
-    align-self: center;
+    object-position: center;
     padding: 2em;
 }
 .header__text__btn--full {
-    align-self: center;
+    object-position: center;
     color: var(--color-reverse);
     background-color: var(--btn-background);
     margin: 2em;
     padding: 0.5em;
+}
+.main__header {
+    margin: 3em;
+}
+.main__main {
+    gap: 1em;
+    margin: 3em;
+}
+.main__service {
+    display: flex;
+}
+.main_foot {
+    background-image: url(media/background-CTAblock-4460w.jpg);
+    display: block;
+}
+.main_foot h3 {
+    color: var(--color-reverse);
+    object-position: center;
+}
+.main_foot a {
+    object-position: center;
+    color: var(--color-reverse);
 }
