@@ -16,9 +16,9 @@
                 <img src="media/logo.png" alt="logo společnosti">
             </picture>
             <ul class="header__navbar__nav">
-                <li><a href="#" class="header__navbar__nav__btn--active">Domů</a></li>
-                <li><a href="#" class="header__navbar__nav__btn">Služby</a></li>
-                <li><a href="refrence.html" class="header__navbar__nav__btn">Reference</a></li>
+                <li><a href="index.html" class="header__navbar__nav__btn--active">Domů</a></li>
+                <li><a href="#služby" class="header__navbar__nav__btn">Služby</a></li>
+                <li><a href="#reference" class="header__navbar__nav__btn">Reference</a></li>
                 <li><a href="onas.html" class="header__navbar__nav__btn">O Nás</a></li>
                 <li><a href="kontakt.html" class="header__navbar__nav__btn">Kontakt</a></li>
             </ul>
@@ -33,7 +33,7 @@
             <a href="#" class="header__text__btn--full">pokračovat</a>
         </div>
     </header>
-    <main class="main">
+    <main class="main" id="služby">
         <div class="main__header">
             <h2>
                 Využijte škálu našich služeb
@@ -109,7 +109,7 @@
             <a href="#">Přesvědčit se</a>
         </section>
     </main>
-    <footer class="foot">
+    <footer class="foot" id="reference">
         <div class="foot_head">
             <h2>
                 Rádi vám ukážeme naše reference
@@ -118,34 +118,38 @@
                 Stojí za námi kvalitně vyhotovené základy dle konkrétních požadavků zadavatelů podepřené letitými zkušenostmi ve stavebnictví., To, že obrátit se na právě nás je vhodná volba potvrdí naši klienti, na jejichž stavbách jsme zanechali náš rukopis. Reference jsou jen zlomkem naší práce, za kterou se rozhodně nastydíme.
             </p>
         </div>
-        <div class="foot_main">
-            <div class="foot_main_pictures">
-                <a href="hasicska_zbrojnice.html">
+        <div class="foot__main">
+            <div class="foot__main__pictures">
+                <a href="hasicska_zbrojnice.html" class="foot__main__reference">
                     <picture>
                         <img src="reference/reference-hasicska-zbrojnice-600w.jpg" alt="Hasičská zbrojnice">
+                        <h3>Hasičská zbrojnice</h3>
+                        <p>celková rekonstrukce</p>
                     </picture>
                 </a>
-                <a href="pradelna.html">
+                <a href="pradelna.html" class="foot__main__reference">
                     <img src="reference/reference-pradelna-600w.jpg" alt="Prádelna">
                     <h3>Samoobslužná prádelna</h3>
                     <p>Stavební úpravy a opravy</p>
                 </a>
-                <a href="venkovni_plochy.html">
+                <a href="venkovni_plochy.html" class="foot__main__reference">
                     <picture>
                         <img src="reference/reference-plocha-600w.jpg" alt="Plocha">
+                        <h3>Venkovní plochy Restyl</h3>
+                        <p>provedení venkovních ploch</p>
                     </picture>
                 </a>
             </div>
             <a href="refrence.html">Více referencí</a>
         </div>
-        <div class="foot_footer">
+        <div class="foot__footer">
             <h2>
                 Plácneme si pro Váš projekt?
             </h2>
             <p>
                 Nezávazně nás kontaktujte a domluvíme vše potřebné.
             </p>
-            <a href="#">Nezávazně poptat</a>
+            <a href="#" class="foot__footer__btn-reverse">Nezávazně poptat</a>
         </div>
     </footer>
 </body>

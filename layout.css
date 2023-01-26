@@ -89,3 +89,18 @@ a {
     object-position: center;
     color: var(--color-reverse);
 }
+.foot__main__reference {
+    object-position: center;
+}
+.foot__main__pictures {
+    margin: 3em;
+}
+.foot__footer {
+    background-color: var(--btn-background);
+    color: var(--color-reverse);
+    object-position: center;
+}
+.foot__footer__btn-reverse {
+    background-color: var(--background-color);
+    color: var(--btn-color);
+}
