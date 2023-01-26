@@ -30,10 +30,7 @@ a {
     padding: 3em;
 }
 .header__navbar {
-    background-color: var(--background-color);
-    display: flex;
-    flex-direction: column;
-    align-content: space-between;
+    background-color: var(--btn-background);
     margin: 2em;
     padding: 0.5em;
 }
@@ -41,11 +38,12 @@ a {
     display: flex;
     grid-gap: 0,5rem;
     list-style-type: none;
-    justify-content: end;
+    flex-direction: column;
     align-content: center;
+    justify-content: center;
 }
 .header__navbar__nav__btn {
-    color: var(--color);
+    color: var(--color-reverse);
     margin: 1em;
     padding: 3em;
 }
