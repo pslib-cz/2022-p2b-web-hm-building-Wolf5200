@@ -77,15 +77,11 @@ a {
 .main__service {
     display: flex;
 }
-.main_foot {
-    background-image: url(media/background-CTAblock-4460w.jpg);
-    display: block;
-}
-.main_foot h3 {
+.main__foot h3 {
     color: var(--color-reverse);
     object-position: center;
 }
-.main_foot a {
+.main__foot a {
     object-position: center;
     color: var(--color-reverse);
 }
@@ -103,4 +99,12 @@ a {
 .foot__footer__btn-reverse {
     background-color: var(--background-color);
     color: var(--btn-color);
+}
+main {
+    margin: 3em;
+}
+.main__foot {
+    background-image: url(media/background-CTAblock-4460w.jpg);
+    display: block;
+    margin: 0em;
 }
