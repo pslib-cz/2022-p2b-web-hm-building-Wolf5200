@@ -12,16 +12,14 @@
 <body>
     <header class="header">
         <nav class="header__navbar">
-            <picture class="header__navbar__logo">
-                <img src="media/logo.png" alt="logo společnosti">
-            </picture>
-            <ul class="header__navbar__nav">
+            <a href="index.html"><img src="media/logo.png" alt="HM building cz"></a>
+            <menu class="header__navbar__nav">
                 <li><a href="index.html" class="header__navbar__nav__btn--active">Domů</a></li>
                 <li><a href="index.html/#služby" class="header__navbar__nav__btn">Služby</a></li>
                 <li><a href="index.html/#reference" class="header__navbar__nav__btn">Reference</a></li>
                 <li><a href="onas.html" class="header__navbar__nav__btn">O Nás</a></li>
                 <li><a href="kontakt.html" class="header__navbar__nav__btn">Kontakt</a></li>
-            </ul>
+            </menu>
         </nav>
     </header>
     <footer class="foot">
@@ -36,19 +34,22 @@
         <div class="foot__main">
             <div class="foot__main__pictures">
                 <a href="hasicska_zbrojnice.html" class="foot__main__reference">
-                    <picture>
+                    <picture class="picture">
                         <img src="reference/reference-hasicska-zbrojnice-600w.jpg" alt="Hasičská zbrojnice">
                         <h3>Hasičská zbrojnice</h3>
                         <p>celková rekonstrukce</p>
                     </picture>
                 </a>
                 <a href="pradelna.html" class="foot__main__reference">
-                    <img src="reference/reference-pradelna-600w.jpg" alt="Prádelna">
-                    <h3>Samoobslužná prádelna</h3>
-                    <p>Stavební úpravy a opravy</p>
+                    <picture class="picture">
+                        <img src="reference/reference-pradelna-600w.jpg" alt="Prádelna">
+                        <h3>Samoobslužná prádelna</h3>
+                        <p>Stavební úpravy a opravy</p>
+                    </picture>
+                    
                 </a>
                 <a href="venkovni_plochy.html" class="foot__main__reference">
-                    <picture>
+                    <picture class="picture">
                         <img src="reference/reference-plocha-600w.jpg" alt="Plocha">
                         <h3>Venkovní plochy Restyl</h3>
                         <p>provedení venkovních ploch</p>
@@ -58,13 +59,13 @@
             <a href="refrence.html">Více referencí</a>
         </div>
         <div class="foot__footer">
-            <h2>
-                Plácneme si pro Váš projekt?
-            </h2>
             <p>
-                Nezávazně nás kontaktujte a domluvíme vše potřebné.
+                Plácneme si pro Váš projekt?
             </p>
-            <a href="#" class="foot__footer__btn-reverse">Nezávazně poptat</a>
+            <p>
+                <span>Nezávazně nás kontaktujte a domluvíme vše potřebné.</span>
+            </p>
+            <a href="#" class="btn btn--reverse">Nezávazně poptat</a>
         </div>
     </footer>
 </body>
