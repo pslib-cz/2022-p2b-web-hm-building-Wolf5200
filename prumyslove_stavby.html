@@ -11,57 +11,53 @@
 </head>
 <body>
     <header class="header">
-        <nav class="header__navbar">
-            <a href="index.html"><img src="media/logo.png" alt="HM building cz"></a>
-            <menu class="header__navbar__nav">
-                <li><a href="index.html" class="header__navbar__nav__btn--active">Domů</a></li>
-                <li><a href="index.html/#služby" class="header__navbar__nav__btn">Služby</a></li>
-                <li><a href="index.html/#reference" class="header__navbar__nav__btn">Reference</a></li>
-                <li><a href="onas.html" class="header__navbar__nav__btn">O Nás</a></li>
-                <li><a href="kontakt.html" class="header__navbar__nav__btn">Kontakt</a></li>
+        <nav class="header__nav">
+            <a href="index.html"><img class="img-responsive" src="./media/logo.svg"  alt="HM Building cz"></a>
+            <menu class="menu hamburger-menu hamburger-menu--hidden">
+                <li><a href="index.html">DOMŮ</a></li>
+                <li><a href="index.html/#popis">SLUŽBY</a></li>
+                <li><a href="refrence.html">REFERENCE</a></li>
+                <li><a href="onas.html">O NÁS</a></li>
+                <li><a href="kontakt.html">KONTAKTY</a></li>                
             </menu>
+            <a class="hamburger" href="javascript:void(0)">menu</a>
         </nav>
     </header>
-    <main>
-        <h1>
-            Průmyslové stavby
-        </h1>
+    <div class="popis">
+        <h1>Průmyslové stavby</h1>
         <p>
-            Realizujeme <b>průmyslové objekty ocelové konstrukce, lehké ocelové (stanového typu)</b>, z prefabrikovaných dílců atd. Vzhledem k tomu, že vlastníme dostatek vlastní mechanizace, stáváme se nezávislými na ostatních subdodávkách a tím <b>se dostáváme na přijatelné ceny</b>.
+            Realizujeme průmyslové objekty ocelové konstrukce, lehké ocelové (stanového typu), z prefabrikovaných dílců atd. Vzhledem k tomu, že vlastníme dostatek vlastní mechanizace, stáváme se nezávislými na ostatních subdodávkách a tím se dostáváme na přijatelné ceny.
         </p>
         <ul>
             <li>
-                zemní práce
+                <p>zemní práce</p>
             </li>
             <li>
-                základové konstrukce
+                <p>základové konstrukce</p>
             </li>
             <li>
-                průmyslové haly
-                <ul>
-                    <li>
-                        ocelové
-                    </li>
-                    <li>
-                        ŽLB prefabrikované
-                    </li>
-                    <li>
-                        lehké ocelové (tzv. stanového typu)
-                    </li>
-                </ul>
+                <p>průmyslové haly</p>
             </li>
+            <ul>
+                <li>
+                    <p>ocelové</p>
+                </li>
+                <li>
+                    <p>ŽLB prefabrikované</p>
+                </li>
+                <li>
+                    <p>lehké ocelové (tzv. stanového typu)</p>
+                </li>
+            </ul>
         </ul>
-    </main>
-    <footer class="foot">
-        <div class="foot__footer">
-            <p>
-                Plácneme si pro Váš projekt?
-            </p>
-            <p>
-                <span>Nezávazně nás kontaktujte a domluvíme vše potřebné.</span>
-            </p>
-            <a href="#" class="btn btn--reverse">Nezávazně poptat</a>
-        </div>
+
+    </div>
+ 
+
+    <footer class="footer">
+        <h1>Plácneme si pro Váš projekt?</h1>
+        <p>Nezávazně nás kontaktujte a domluvme vše potřebné.</p>
+        <a class="button3">Nezávazně poptat</a>
     </footer>
 </body>
 </html>

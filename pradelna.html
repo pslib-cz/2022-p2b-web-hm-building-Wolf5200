@@ -11,44 +11,35 @@
 </head>
 <body>
     <header class="header">
-        <nav class="header__navbar">
-            <a href="index.html"><img src="media/logo.png" alt="HM building cz"></a>
-            <menu class="header__navbar__nav">
-                <li><a href="index.html" class="header__navbar__nav__btn--active">Domů</a></li>
-                <li><a href="index.html/#služby" class="header__navbar__nav__btn">Služby</a></li>
-                <li><a href="index.html/#reference" class="header__navbar__nav__btn">Reference</a></li>
-                <li><a href="onas.html" class="header__navbar__nav__btn">O Nás</a></li>
-                <li><a href="kontakt.html" class="header__navbar__nav__btn">Kontakt</a></li>
+        <nav class="header__nav">
+            <a href="index.html"><img class="img-responsive" src="./media/logo.svg"  alt="HM Building cz"></a>
+            <menu class="menu hamburger-menu hamburger-menu--hidden">
+                <li><a href="index.html">DOMŮ</a></li>
+                <li><a href="index.html/#popis">SLUŽBY</a></li>
+                <li><a href="refrence.html">REFERENCE</a></li>
+                <li><a href="onas.html">O NÁS</a></li>
+                <li><a href="kontakt.html">KONTAKTY</a></li>                
             </menu>
+            <a class="hamburger" href="javascript:void(0)">menu</a>
         </nav>
     </header>
-    <main>
-        <picture>
-            <img src="reference/pradelna/reference-pradelna-01.jpeg" alt="Prádelna">
-        </picture>
-        <picture>
-            <img src="reference/pradelna/reference-pradelna-02.jpeg" alt="Prádelna">
-        </picture>
-        <picture>
-            <img src="reference/pradelna/reference-pradelna-03.jpeg" alt="Prádelna">
-        </picture>
-        <picture>
-            <img src="reference/pradelna/reference-pradelna-04.jpeg" alt="Prádelna">
-        </picture>
-        <picture>
-            <img src="reference/pradelna/reference-pradelna-05.jpeg" alt="Prádelna">
-        </picture>
-    </main>
-    <footer class="foot">
-        <div class="foot__footer">
-            <p>
-                Plácneme si pro Váš projekt?
-            </p>
-            <p>
-                <span>Nezávazně nás kontaktujte a domluvíme vše potřebné.</span>
-            </p>
-            <a href="#" class="btn btn--reverse">Nezávazně poptat</a>
-        </div>
+    <div class="popis">
+        <h1>Samoobslužná prádelna</h1>
+        <p>Stavební úpravy a opravy v rámci zřízení samoobslužné prádelny v Liberci.</p>
+    </div>
+
+    <div class="galery3">
+                <img class="img_small" src="../media/reference/pradelna/reference-pradelna-01.jpeg">
+                <img class="img_small" src="../media/reference/pradelna/reference-pradelna-02.jpeg">
+                <img class="img_small" src="../media/reference/pradelna/reference-pradelna-03.jpeg">
+                <img class="img_small" src="../media/reference/pradelna/reference-pradelna-04.jpeg">
+                <img class="img_big" src="../media/reference/pradelna/reference-pradelna-05.jpeg">
+            </div>
+
+    <footer class="footer">
+        <h1>Plácneme si pro Váš projekt?</h1>
+        <p>Nezávazně nás kontaktujte a domluvme vše potřebné.</p>
+        <a class="button3">Nezávazně poptat</a>
     </footer>
 </body>
 </html>

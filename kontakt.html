@@ -11,77 +11,42 @@
 </head>
 <body>
     <header class="header">
-        <nav class="header__navbar">
-            <a href="index.html"><img src="media/logo.png" alt="HM building cz"></a>
-            <menu class="header__navbar__nav">
-                <li><a href="index.html" class="header__navbar__nav__btn--active">Domů</a></li>
-                <li><a href="index.html/#služby" class="header__navbar__nav__btn">Služby</a></li>
-                <li><a href="index.html/#reference" class="header__navbar__nav__btn">Reference</a></li>
-                <li><a href="onas.html" class="header__navbar__nav__btn">O Nás</a></li>
-                <li><a href="kontakt.html" class="header__navbar__nav__btn">Kontakt</a></li>
+        <nav class="header__nav">
+            <a href="index.html"><img class="img-responsive" src="./media/logo.svg"  alt="HM Building cz"></a>
+            <menu class="menu hamburger-menu hamburger-menu--hidden">
+                <li><a href="index.html">DOMŮ</a></li>
+                <li><a href="#popis">SLUŽBY</a></li>
+                <li><a href="refrence.html">REFERENCE</a></li>
+                <li><a href="onas.html">O NÁS</a></li>
+                <li><a href="kontakt.html" class="active">KONTAKTY</a></li>                
             </menu>
+            <a class="hamburger" href="javascript:void(0)">menu</a>
         </nav>
     </header>
-    <main>
-        <h1>
-            Kontaktujte nás
-        </h1>
-        <p>
-            Zavolejte anebo nám napište... kvalitní komunikace je jeden z pilířů, na kterém stavíme.
-        </p>
-        <ul>
-            <li>
-                +420 775 550 564
-            </li>
-            <li>
-                stavby@hm-building.cz
-            </li>
-            <li>
-                Křížanská 12, Liberec XXII-Horní suchá
-            </li>
-        </ul>
-        <picture class="picture">
-            <img src="media/mapa.jpg" alt="mapa Horní Suché" >
-        </picture>
-        <form>
-            <p>
-                Jméno a příjmení
-            </p>
-            <input type="text">
-            <p>
-                E-mail
-            </p>
-            <input type="text">
-            <p>
-                Telefon
-            </p>
-            <input type="text">
-            <p>
-                Poptávaná služba
-            </p>
-            <select>
-                Novostavba
-                Průmyslová stavba
-                Rekonstrukce domů a jiných staveb
-                Komunikace a zpevněné plochy
-            </select>
-            <p>
-                Poznámka
-            </p>
-            <input type="text">
-            <button>Odeslat nezávaznou poptávku</button>
-        </form>
-    </main>
-    <footer class="foot">
-        <div class="foot__footer">
-            <p>
-                Plácneme si pro Váš projekt?
-            </p>
-            <p>
-                <span>Nezávazně nás kontaktujte a domluvíme vše potřebné.</span>
-            </p>
-            <a href="#" class="btn btn--reverse">Nezávazně poptat</a>
+    <div class="popis">
+        <h1>Kontaktujte nás</h1>
+        <p>Zavolejte anebo nám napište... kvalitní komunikace je jeden z pilířů, na kterém stavíme.</p>
+        <div class="info">
+            <p class="phone">+420 775 564</p>
+            <p class="mail">stavby@hm-building.cz</p>
+            <p class="point">Křižanská 12, Liberec XXII-Horní Suchá</p>
         </div>
-    </footer>
+        <img src="../media/mapa.jpg" class="mapa">
+        <h2>Nezávazná poptávka služeb</h2>
+        <p>Plácneme si pro Váš projekt? Nezávazně nás kontaktujte a domluvme vše potřebné.</p>
+        <div class="formular">
+            <p>Jméno a příjmení</p>
+            <a class="okenko"></a>
+            <p>E-mail</p>
+            <a class="okenko"></a>
+            <p>Telefon</p>
+            <a class="okenko"></a>
+            <p>Poptavka služba</p>
+            <a class="okenko2"></a>
+            <p>Poznámka</p>
+            <a class="okenko3"></a>
+            <a class="button2">Odeslat nezávaznou poptávku</a>
+        </div>
+    </div>
 </body>
 </html>

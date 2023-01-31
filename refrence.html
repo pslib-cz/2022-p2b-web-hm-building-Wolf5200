@@ -11,62 +11,54 @@
 </head>
 <body>
     <header class="header">
-        <nav class="header__navbar">
-            <a href="index.html"><img src="media/logo.png" alt="HM building cz"></a>
-            <menu class="header__navbar__nav">
-                <li><a href="index.html" class="header__navbar__nav__btn--active">Domů</a></li>
-                <li><a href="index.html/#služby" class="header__navbar__nav__btn">Služby</a></li>
-                <li><a href="index.html/#reference" class="header__navbar__nav__btn">Reference</a></li>
-                <li><a href="onas.html" class="header__navbar__nav__btn">O Nás</a></li>
-                <li><a href="kontakt.html" class="header__navbar__nav__btn">Kontakt</a></li>
+        <nav class="header__nav">
+            <a href="index.html"><img class="img-responsive" src="./media/logo.svg"  alt="HM Building cz"></a>
+            <menu class="menu hamburger-menu hamburger-menu--hidden">
+                <li><a href="index.html">DOMŮ</a></li>
+                <li><a href="index.html/#popis">SLUŽBY</a></li>
+                <li><a href="refrence.html" class="active">REFERENCE</a></li>
+                <li><a href="onas.html">O NÁS</a></li>
+                <li><a href="kontakt.html">KONTAKTY</a></li>                
             </menu>
+            <a class="hamburger" href="javascript:void(0)">menu</a>
         </nav>
     </header>
-    <footer class="foot">
-        <div class="foot_head">
-            <h2>
-                Rádi vám ukážeme naše reference
-            </h2>
-            <p>
-                Stojí za námi kvalitně vyhotovené základy dle konkrétních požadavků zadavatelů podepřené letitými zkušenostmi ve stavebnictví., To, že obrátit se na právě nás je vhodná volba potvrdí naši klienti, na jejichž stavbách jsme zanechali náš rukopis. Reference jsou jen zlomkem naší práce, za kterou se rozhodně nastydíme.
-            </p>
+    <div class="popis">
+        <h1>reference</h1>
+            <p>Stojí za námi <mark>kvalitně vyhotovené zakázky</mark> dle konkrétních požadavků zadavatelů <mark>podepřené letitými zkušenostmi ve stavebnictví</mark>. To, že <mark>obrátit se na právě nás je vhodná volba potvrdí naši klienti</mark>, na jejichž stavbách jsme zanechali náš rukopis. Reference jsou jen zlomkem naší práce, za kterou se rozhodně nestydíme.</p>
+    </div>
+    <div class="galery2">
+        <div class="zbrojnice__img">
+            <img src="../media/reference/reference-hasicska-zbrojnice-600w.jpg" class="img_res_2" alt="hasická zbrojnice">
         </div>
-        <div class="foot__main">
-            <div class="foot__main__pictures">
-                <a href="hasicska_zbrojnice.html" class="foot__main__reference">
-                    <picture class="picture">
-                        <img src="reference/reference-hasicska-zbrojnice-600w.jpg" alt="Hasičská zbrojnice">
-                        <h3>Hasičská zbrojnice</h3>
-                        <p>celková rekonstrukce</p>
-                    </picture>
-                </a>
-                <a href="pradelna.html" class="foot__main__reference">
-                    <picture class="picture">
-                        <img src="reference/reference-pradelna-600w.jpg" alt="Prádelna">
-                        <h3>Samoobslužná prádelna</h3>
-                        <p>Stavební úpravy a opravy</p>
-                    </picture>
-                    
-                </a>
-                <a href="venkovni_plochy.html" class="foot__main__reference">
-                    <picture class="picture">
-                        <img src="reference/reference-plocha-600w.jpg" alt="Plocha">
-                        <h3>Venkovní plochy Restyl</h3>
-                        <p>provedení venkovních ploch</p>
-                    </picture>
-                </a>
-            </div>
-            <a href="refrence.html">Více referencí</a>
+        <div class="txt2">
+            <h1>Hasičská zbrojnice</h1>
+            <p>celková rekonstrukce</p>
         </div>
-        <div class="foot__footer">
-            <p>
-                Plácneme si pro Váš projekt?
-            </p>
-            <p>
-                <span>Nezávazně nás kontaktujte a domluvíme vše potřebné.</span>
-            </p>
-            <a href="#" class="btn btn--reverse">Nezávazně poptat</a>
+
+        <div class="pradelna__img">
+            <img src="../media/reference/reference-pradelna-600w.jpg" class="img_res_2" alt="veřejná pradelna">
         </div>
+        <div class="txt2">
+            <h1>Samoobslužná prádelna</h1>
+            <p>stavební úpravy a opravy</p>
+        </div>
+
+        <div class="restyl__img">
+            <img src="../media/reference/reference-plocha-600w.jpg" class="img_res_2" alt="Venkovní plochy Restyl">
+        </div>
+        <div class="txt2">
+            <h1>Venkovní plochy Restyl</h1>
+            <p>provedení venkovnách ploch</p>
+        </div>
+    </div>
+</div>
+
+
+    <footer class="footer">
+        <h1>Plácneme si pro Váš projekt?</h1>
+        <p>Nezávazně nás kontaktujte a domluvme vše potřebné.</p>
+        <a class="button3">Nezávazně poptat</a>
     </footer>
 </body>
 </html>
