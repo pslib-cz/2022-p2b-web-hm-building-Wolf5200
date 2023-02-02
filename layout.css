@@ -21,7 +21,6 @@ html {
 
 
 .header__nav{
-    position: relative;
     display: flex;
     justify-content: space-between;
     margin:1.5em 1.2em 2em 1.2em;
@@ -34,7 +33,7 @@ html {
     position: absolute;
     left: 0;
     right: 0;
-    top: 100%;
+    top: 9%;
     display: flex;
     flex-direction: column;
     list-style-type: none;
@@ -93,7 +92,7 @@ menu::after {
 }
 
 .img-responsive {
-    
+    width: auto;
     height: 100%;
 }
 
@@ -114,37 +113,40 @@ p > mark{
 }
 .title > h1{
     font-weight: 800;
-    font-size: 30px;
+    font-size: larger;
     line-height: 41px;
     color: var(--white);
+    text-align: center;
 }
 
-.title > h2 {
+
+.title > h1 > span {
     font-weight: 300;
     font-size: 20px;
     line-height: 27px;
     color: var(--white);
+    text-align: center;
 }
 
-.popis > h1{
+.popis > h2{
     font-weight: 700;
     font-size: 22px;
     line-height: 30px;
 }
 
-.popis > h1 > mark{
+.popis > h2 > mark{
     color: var(--orange);
     background-color: transparent;
 }
 
-.galery > h1{
+.galery > h2{
     font-weight: 700;
     font-size: 20px;
     line-height: 27px;
 
 }
 
-.baner > h1{
+.baner > h2{
     font-weight: 700;
     font-size: 17px;
     line-height: 21px;
@@ -164,7 +166,7 @@ p > mark{
 
 
 
-footer > h1{
+footer > h2{
     font-weight: 700;
     font-size: 22px;
     line-height: 30px;
@@ -178,18 +180,18 @@ footer > p{
     color: var(--white);
 }
 
-.img_res_1{
-    width: 319px;
-    height: 134px;
-    border-radius: 0px 0px 40px 0px;
-}
+
 
 .img_res{
     width: 319px;
     height: 134px;
     border-radius: 0px 0px 0px 40px;
 }
-
+.res_1{
+    width: 319px;
+    height: 134px;
+    border-radius: 0px 0px 40px 0px;
+}
 .title{
     display: flex;
     justify-content: center;
@@ -250,7 +252,7 @@ footer > p{
     width: 320px;
     height: 200px;
 }
-.baner > h1{
+.baner > h2{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -281,13 +283,13 @@ footer > p{
     justify-content: center;
     align-items: center;
 }
-.txt2 > h1{
+.txt2 > h2{
     margin:0px;
     font-weight: 700;
     font-size: 22px;
     line-height: 30px;
 }
-.popis > h1{
+.popis > h2{
     text-align: start;
     font-size: 22px;
     font-weight: 800;
@@ -323,13 +325,13 @@ footer{
     color: var(--orange);
 }
 
-.popis > ul >h1{
+.popis > ul >h2{
     color: var(--black);
     font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 17px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
 }
 .galery3{
     align-items: center;
@@ -346,4 +348,93 @@ line-height: 17px;
 .img_big{
     width: 320px;
     height: auto;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.foot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media screen and (min-width: 832px) {
+    .header__nav {
+        background-color: var(--white);
+        flex-direction: row;
+        height: auto;
+    }
+    .hamburger {
+        display: none;
+    }
+    .menu {
+        flex-direction: row;
+        justify-self: flex-end;
+        text-decoration: none;
+        z-index: 0;
+        gap: 1em;
+        padding: 0;
+        margin: 0;
+        position: relative;
+        height: inherit;
+        background-color: inherit;
+    }
+    .menu a {
+        text-decoration: none;
+        color: inherit;
+    }
+    menu::after {
+        content: none;
+    }
+    .menu a {
+        color: var(--black);
+    }
+    .menu .active {
+        background-color: var(--orange);
+        color: var(--white);
+        padding: 2em;
+    }
+    .blok {
+        display: flex;
+        gap: 1em;
+    }
+    .reverse {
+        flex-direction: row-reverse;
+    }
+    .img {
+        flex-grow: 1;
+    }
+    .res_1 {
+        height: fit-content;
+    }
+    .galery2 {
+        flex-direction: row;
+    }
+    .popis > h2 {
+        text-align: center;
+    }
+    .galery2__part {
+        display: flex;
+        flex-direction: column;
+    }
+    .unseen {
+        display: none;
+    }
+    .foot {
+        justify-content: center;
+    }
 }
