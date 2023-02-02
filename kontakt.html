@@ -32,21 +32,63 @@
             <p class="point">Křižanská 12, Liberec XXII-Horní Suchá</p>
         </div>
         <img src="../media/mapa.jpg" class="mapa">
-        <h2>Nezávazná poptávka služeb</h2>
+        <h2 class="contact">Nezávazná poptávka služeb</h2>
         <p>Plácneme si pro Váš projekt? Nezávazně nás kontaktujte a domluvme vše potřebné.</p>
-        <div class="formular">
-            <p>Jméno a příjmení</p>
-            <a class="okenko"></a>
-            <p>E-mail</p>
-            <a class="okenko"></a>
-            <p>Telefon</p>
-            <a class="okenko"></a>
-            <p>Poptavka služba</p>
-            <a class="okenko2"></a>
-            <p>Poznámka</p>
-            <a class="okenko3"></a>
-            <a class="button2">Odeslat nezávaznou poptávku</a>
-        </div>
+        
+        <div class="container">
+            <form action="/action_page.php">
+            <div class="row">
+              <div class="col-25">
+                <label>Jméno a příjmení</label>
+              </div>
+              <div class="col-75">
+                <input type="text">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label>E-mail</label>
+              </div>
+              <div class="col-75">
+                <input type="text">
+              </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                  <label>Telefon</label>
+                </div>
+                <div class="col-75">
+                  <input type="text">
+                </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="country">Poptávaná služba</label>
+              </div>
+              <div class="col-75">
+                <select id="country" name="country">
+                  <option>Novostavby</option>
+                  <option>Průmyslové stavby</option>
+                  <option>Rekonstrukce domů a jiné stavby</option>
+                  <option>Komunikace a pevněné plochy</option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="subject">Poznámka</label>
+              </div>
+              <div class="col-75">
+                <textarea id="subject" style="height:200px"></textarea>
+              </div>
+            </div>
+            <br>
+            <div class="row">
+              <input type="submit" value="Odeslat nezávaznou poptávku">
+            </div>
+            </form>
+          </div>
+          
     </div>
 </body>
 </html>
