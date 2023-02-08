@@ -442,6 +442,13 @@ footer{
     }
     .galery3 {
         grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1em;
+    }
+    .img--big {
+        width: 420px;
+    }
+    .img--small {
+        width: 420px;
     }
 }
 
