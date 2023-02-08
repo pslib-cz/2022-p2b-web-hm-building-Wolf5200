@@ -341,13 +341,14 @@ footer{
     gap: 8px;
 }
 
-.img_small{
+.img--small{
     width: 320px;
     height: auto;
 }
-.img_big{
+.img--big{
     width: 320px;
     height: auto;
+    grid-row: span 2;
 }
 .dropdown {
     position: relative;
@@ -438,6 +439,10 @@ footer{
     }
     .contact {
         text-align: left;
+    }
+    .galery3 {
+        grid-template-rows: repeat(3, 1fr);
+        grid-gap: 1em;
     }
 }
 
