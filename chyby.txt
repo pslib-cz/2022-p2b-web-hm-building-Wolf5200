@@ -1,0 +1,35 @@
+Logo stránky se nezobrazuje
+
+· V sekci Reference se nenačítají obrázky
+
+· HTML není validní – překontrolujte ve validátoru a vyřešte chyby
+
+· Pro tučný text používáme <b> anebo <strong> – mají nastavený vyšší řez i akcentaci/důležitost na stránce - done
+
+· Pro strukturu stránky používejte HTML5 elementy jako <section>, <header> apod., ne pouze <div>
+
+· Button je display: block;, display: inline-block;
+
+· .img_res – pokud má být obrázek responzivní, nenastavujte pevné rozměry width a height, snažíte se sjednotit velikosti obrázků a tím je také deformujete
+
+· Flex používat jen tam, kde to má smysl – kontejner .baner není potřeba flexovat
+
+· <h1> se může na stránce nacházet pouze jednou
+
+· Používejte třídy pro stylování, nepřidávejte vlastnosti elementům (např. <footer>)
+
+· Pro různé vzhledy tlačítek používejte modifikátory dle BEM, nevytvářejte více variant tlačítek nepřehledně
+
+· Prolinkování stránky není ve všech případech funkční
+
+· <a> nemají href=““
+
+· Formulář v kontaktu není validní
+
+· Verze pro desktop není vhodně zpracována
+
+· margin a padding nastavujte v em jednotkách
+
+· font nastavujte v jednotkách em/rem a ne v px
+
+· vizuál by měl odpovídat předloze

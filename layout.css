@@ -105,12 +105,6 @@ p{
     line-height: 17px;
     font-weight: 400;
 }
-
-p > mark{
-    color:var(--black);
-    background-color: transparent;
-    font-weight: bold;
-}
 .title > h1{
     font-weight: 800;
     font-size: larger;
@@ -179,17 +173,12 @@ footer > p{
     line-height: 18px;
     color: var(--white);
 }
-
-
-
 .img_res{
     width: 319px;
-    height: 134px;
     border-radius: 0px 0px 0px 40px;
 }
 .res_1{
     width: 319px;
-    height: 134px;
     border-radius: 0px 0px 40px 0px;
 }
 .title{
