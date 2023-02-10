@@ -1,14 +1,14 @@
 Logo stránky se nezobrazuje
 
-· V sekci Reference se nenačítají obrázky
+· V sekci Reference se nenačítají obrázkyc - done
 
-· HTML není validní – překontrolujte ve validátoru a vyřešte chyby
+· HTML není validní – překontrolujte ve validátoru a vyřešte chyby - done
 
 · Pro tučný text používáme <b> anebo <strong> – mají nastavený vyšší řez i akcentaci/důležitost na stránce - done
 
 · Pro strukturu stránky používejte HTML5 elementy jako <section>, <header> apod., ne pouze <div>
 
-· Button je display: block;, display: inline-block;
+· Button je display: block;, display: inline-block; - done
 
 · .img_res – pokud má být obrázek responzivní, nenastavujte pevné rozměry width a height, snažíte se sjednotit velikosti obrázků a tím je také deformujete
 
@@ -22,7 +22,7 @@ Logo stránky se nezobrazuje
 
 · Prolinkování stránky není ve všech případech funkční
 
-· <a> nemají href=““
+· <a> nemají href=““ - done
 
 · Formulář v kontaktu není validní
 
