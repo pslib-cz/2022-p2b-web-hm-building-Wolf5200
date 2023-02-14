@@ -285,7 +285,7 @@ footer > p{
     align-items: center;
 }
 .txt2 > h2{
-    margin:0px;
+    margin:0;
     font-weight: 700;
     font-size: 22px;
     line-height: 30px;
@@ -303,7 +303,7 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 96px;
+    margin-top: 5em;
 }
 .button--reverse{
     display: flex;
