@@ -10,7 +10,7 @@ Logo stránky se nezobrazuje
 
 · Button je display: block;, display: inline-block; - done
 
-· .img_res – pokud má být obrázek responzivní, nenastavujte pevné rozměry width a height, snažíte se sjednotit velikosti obrázků a tím je také deformujete
+· .img_res – pokud má být obrázek responzivní, nenastavujte pevné rozměry width a height, snažíte se sjednotit velikosti obrázků a tím je také deformujete - done
 
 · Flex používat jen tam, kde to má smysl – kontejner .baner není potřeba flexovat
 

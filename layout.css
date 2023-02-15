@@ -185,11 +185,11 @@ footer > p{
     line-height: 18px;
     color: var(--white);
 }
-.img_res{
+.img_index{
     width: 319px;
     border-radius: 0px 0px 0px 40px;
 }
-.res_1{
+.index_1{
     width: 319px;
     border-radius: 0px 0px 40px 0px;
 }
@@ -249,7 +249,7 @@ footer > p{
     min-height: 20vh;
     padding: 1.5em;
 }
-.img_res_2{
+.img_index_2{
     width: 320px;
     height: 200px;
 }
@@ -418,8 +418,21 @@ footer{
     .img {
         flex-grow: 1;
     }
-    .res_1 {
-        height: fit-content;
+    .index_1 {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0; 
+        padding: 0;
+        object-fit: cover;
+    }
+    .img_index {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0; 
+        padding: 0;
+        object-fit: cover;
     }
     .galery2 {
         flex-direction: row;
