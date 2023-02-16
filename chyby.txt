@@ -6,7 +6,7 @@ Logo stránky se nezobrazuje
 
 · Pro tučný text používáme <b> anebo <strong> – mají nastavený vyšší řez i akcentaci/důležitost na stránce - done
 
-· Pro strukturu stránky používejte HTML5 elementy jako <section>, <header> apod., ne pouze <div>
+· Pro strukturu stránky používejte HTML5 elementy jako <section>, <header> apod., ne pouze <div> - done
 
 · Button je display: block;, display: inline-block; - done
 
