@@ -24,11 +24,11 @@ Logo stránky se nezobrazuje
 
 · <a> nemají href=““ - done
 
-· Formulář v kontaktu není validní
+· Formulář v kontaktu není validní - done
 
 · Verze pro desktop není vhodně zpracována
 
-· margin a padding nastavujte v em jednotkách
+· margin a padding nastavujte v em jednotkách 
 
 · font nastavujte v jednotkách em/rem a ne v px
 

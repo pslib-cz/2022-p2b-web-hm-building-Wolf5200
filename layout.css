@@ -203,6 +203,7 @@ footer > p{
     margin-bottom: 55px;
 }
 .button--dashed {
+    display: inline-block;
     color: var(--orange);
     padding: 12px 40px 12px 40px;
     font-size: 14px;
