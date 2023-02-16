@@ -152,12 +152,6 @@ p{
 
 }
 
-.baner > h2{
-    font-weight: 700;
-    font-size: 17px;
-    line-height: 21px;
-}
-
 .galery2 > h1{
     font-weight: 700;
     font-size: 22px;
@@ -259,9 +253,6 @@ footer > p{
     font-weight: 700;
     font-size: 17px;
     line-height: 21px;
-    display: flex;
-    align-items: center;
-
     color: var(--white);
     padding-left: 20px;
     padding-right: 20px;
