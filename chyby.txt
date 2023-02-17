@@ -20,7 +20,7 @@ Logo stránky se nezobrazuje
 
 · Pro různé vzhledy tlačítek používejte modifikátory dle BEM, nevytvářejte více variant tlačítek nepřehledně
 
-· Prolinkování stránky není ve všech případech funkční
+· Prolinkování stránky není ve všech případech funkční - done
 
 · <a> nemají href=““ - done
 
